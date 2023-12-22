@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+h1{
+    font-family: 'Aoboshi One', serif;
+    font-size: 40px;
+    color: gold;
+    text-shadow: 
+      -1px -1px 0 #000, 
+       1px -1px 0 #000, 
+      -1px  1px 0 #000, 
+       1px  1px 0 #000;
+}
+
+header, footer{
+    background-color: beige;
+    height: 30vh;
+}
+
+header{
+    position: sticky;  
+    top: -25vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2vh 2vw; 
+    z-index: 10;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 0 0 20px 20px;
+}
+
+header a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: gold;
+    margin-right: 5vw;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 
+    -1px -1px 0 #000, 
+     1px -1px 0 #000, 
+    -1px  1px 0 #000, 
+     1px  1px 0 #000;
+}
+
+header a:hover{
+    color: beige;
+    background-color: navy;
+    border: 2px;
+    border-radius: 20%;
+}
+
+.logo img{
+    margin: 0;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: -120px;
+    top: -60px;
+}
+
+nav{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 10vw;
+}
+
+div{
+    height: 100vh;
+    color: black;
+    padding-top: 10vh;
+    position: relative;
+    top: -25vh;
+}
+
+div:nth-child(2){
+    background-color: navy;
+    border: 5px solid beige;
+}
+
+div:nth-child(3){
+    background-color: beige;
+}
+
+div:nth-child(4){
+    background-color: navy;
+    border: 5px solid beige;
+}
+
+div:nth-child(5){
+    background-color: beige;
+}
+
+div:nth-child(6){
+    background-color: navy;
+    border: 5px solid beige;
+}
+
+.Accueil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    padding-top: 10vh;
+    position: relative;
+    top: -25vh;
+}
+
+.Accueil p {
+    font-family: 'Roboto', sans-serif;
+    color: gold;
+}
+
+.piedDePage {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: gold;
+    margin-left: 5vw;
+}
+
+.piedDePage:hover {
+    color: beige;
+    background-color: navy;
+    border: 2px;
+    border-radius: 20%;
+}
+
+#footer {
+    background-color: beige;
+    text-align: center;
+}
+
+#footer img {
+    width: 40px;
+    height: auto;
+    margin: 10px;
+    border-radius: 20%;
+}
+
+#footer p {
+    font-size: 20px;
+    color: navy;
+    margin-bottom: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
